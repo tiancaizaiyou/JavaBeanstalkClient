@@ -33,6 +33,7 @@ import com.surftools.BeanstalkClient.Job;
 public class ClientImpl implements Client {
 
 	private static final String VERSION = "1.6.0";
+
 	private static final long MAX_PRIORITY = 4294967296L;
 	private static String DEFAULT_HOST = "localhost";
 	private static final int DEFAULT_PORT = 11300;
